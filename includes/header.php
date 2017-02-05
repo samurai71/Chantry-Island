@@ -22,7 +22,7 @@
     <div class="row">
       <div class="large-12 columns">
         <h1>Chantry Island Project</h1>
-        <img src="images/MHS_logo.png" alt="MHS logo" />
+        <img src="images/day-header.jpg" alt="MHS logo" />
       </div>
     </div>
 

@@ -4,15 +4,6 @@
     include "includes/nav.php";
  ?>
     
-	<section>
-    <div class="row">
-    <div class="small-10 medium-10 large-12 columns">
-    <h2>Animation goes here.</h2>
-    <img src="http://placehold.it/1000x200" alt="placeholder image" />
-    </div>
-    </div>
-    </section>
-
     <section>
     <div class="row">
     <div class="small-10 medium-10 large-12 columns">

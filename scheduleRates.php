@@ -3,24 +3,14 @@
     include "includes/header.php";
     include "includes/nav.php";
  ?>
-    
-	<section>
-    <div class="row">
-    <div class="small-10 medium-10 large-12 columns">
-    <h2>Animation goes here.</h2>
-    <img src="http://placehold.it/1000x200" alt="placeholder image" />
-    </div>
-    </div>
-    </section>
 
     <section>
     <div class="row">
     <div class="small-10 medium-10 large-12 columns">
     <h2>Chantry Island Tour Schedule and Rates</h2>
     <p>We offer tours throughout the summer season from late May to mid-September. During June and July, we offer the tour daily, check below for the exact schedule. Note, it does change on a yearly basis.<br>
-    Since the Chantry Island is also Federal Bird Sanctuary we are only able to bring 12 persons per tour. Therefore, call ahead to ensure your place on the boat.<br>
-    Call:<a href="tel:5197975862"> 519-797-5862</a><br>
-    Toll Free:<a href="tel:18667975862"> 1-866-797-5862</a></p>
+    Call:<a href="tel:5197975862" class="phone"> 519-797-5862</a><br>
+    Toll Free:<a href="tel:18667975862" class="phone"> 1-866-797-5862</a></p>
     
 
     <h2>Schedule</h2>

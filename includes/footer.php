@@ -20,11 +20,19 @@
     <div class="fb-page" data-href="https://www.facebook.com/MarineHeritageSociety" data-tabs="timeline, events, messages" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MarineHeritageSociety" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MarineHeritageSociety">Marine Heritage Society</a></blockquote></div>
     </div>
     <div class="small-10 medium-6 large-4 columns">
-    <h3>Content</h3>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi eius consequuntur voluptatem veritatis voluptatibus est, quidem eligendi labore in illum, suscipit numquam voluptates, delectus impedit eos perferendis itaque architecto eum?</p>
+    <!-- <h3>Content</h3>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi eius consequuntur voluptatem veritatis voluptatibus est, quidem eligendi labore in illum, suscipit numquam voluptates, delectus impedit eos perferendis itaque architecto eum?</p> -->
     </div>
     <div class="small-10 medium-6 large-4 columns">
     <h3>YouTube Content</h3>
+    <img src="http://placehold.it/400x650" alt="placeholder image">
+    </div>
+    </div>
+    
+    <div class="row">
+    <div class="small-10 medium-10 large-12 columns">
+    <a href="#"><small>Administrative Sign In</small></a>
+    <p class="text-center">&copy; 2017. All rights reserved.</p>
     </div>
     </div>
     </footer>
@@ -35,6 +43,7 @@
     <script src="js/foundation.min.js"></script>
     <!-- <script src="js/foundation/foundation.dropdown.js"></script> -->
     <script src="js/foundation/foundation.equalizer.js"></script>
+    <script src="js/foundation/foundation.abide.js"></script>
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/start.js"></script>
     <script src="js/facebookpage.js"></script>
