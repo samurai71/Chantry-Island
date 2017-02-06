@@ -31,7 +31,7 @@
     
     <div class="row">
     <div class="small-10 medium-10 large-12 columns">
-    <a href="#"><small>Administrative Sign In</small></a>
+    <a href="admin/admin_login.php">Administrative Sign In</a>
     <p class="text-center">&copy; 2017. All rights reserved.</p>
     </div>
     </div>

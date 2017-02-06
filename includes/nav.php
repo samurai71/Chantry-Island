@@ -7,8 +7,8 @@
     	<li><a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:200">About</a>
     	<ul id="hover1" class="f-dropdown" data-dropdown-content>
     	<li><a href="about.php">About</a></li>
-    	<li><a href="#">News</a></li>
-    	<li><a href="#">Events</a></li>
+    	<li><a href="news.php">News</a></li>
+    	<li><a href="events.php">Events</a></li>
     	<li><a href="restoration.php">Restoration</a></li>
     	</ul></li>
     	<li><a href="#" data-dropdown="hover2" data-options="is_hover:true; hover_timeout:200">Booking</a>
@@ -36,8 +36,8 @@
         <li>About
         <ul>
         <li><a href="about.php">About</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Events</a></li>
+        <li><a href="news.php">News</a></li>
+        <li><a href="events.php">Events</a></li>
         <li><a href="restoration.php">Restoration</a></li>
          </ul></li>
         <li>Booking

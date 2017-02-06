@@ -2,20 +2,12 @@
 	display: none;
 }
 
-/* .mainNav ul li {
-	display: inline-block;
-	padding-left: 1em;
-} */
-
 p {
 	font-family: "times" , serif;
 }
 
 body {
-	/* background: url(../images/concrete.jpg) no-repeat fixed;
-	background-size: cover; */
 	background: url('../images/Lake_Huron_manitoulin.jpeg') no-repeat fixed;
-	/* background: url('../images/Looking_out_over_windermere_lake.jpeg') no-repeat fixed; */
 	background-size: cover;
 	
 }
@@ -29,11 +21,11 @@ h1, h2, h3 {
 	font-weight: bold;
 }
 
-/* .mainNav ul {
-	background-color: #981b1e;
-} */
+ .mainNav ul {
+	/* background-color: #981b1e; */
+}
 
-.mainNav ul li {
+ .mainNav ul li { 
 	display: inline-block;
 	margin-right: 5em;
 	text-align: center;
@@ -46,7 +38,7 @@ h1, h2, h3 {
 
 #mobileNav {
 	padding-bottom: 1em;
-}
+} */
 
 
 img {
@@ -71,10 +63,10 @@ img {
 	padding-top: 1em;
 }
 
-.bold {
-	font-weight: bold;
-	font-size: 1.125em;
-}
+ .bold {
+	font-weight: bold; 
+	/* font-size: 1.125em; */
+ } 
 
 #volunteers {
 	width: 100%;
@@ -91,7 +83,7 @@ tr.border_bottom td {
 tr.border_bottom th {
   border-bottom:1px solid black;
 }
-
+ 
 @media only screen and (max-width: 40em) {
 	.js #menu {
 		display:none;
