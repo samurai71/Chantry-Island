@@ -5,7 +5,7 @@
 		// do an AJAX call
 		$.ajax({
 			url: "includes/ajaxQuery.php",
-			data: { model: this.id },
+			data: { gallery: this.id },
 			type: "GET"
 		}) //  don't put a semicolon here so we can chain methods together
 
