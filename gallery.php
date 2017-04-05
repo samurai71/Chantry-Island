@@ -13,7 +13,7 @@
 
     $query = "SELECT * FROM tbl_gallery";
     $select_gallery = mysqli_query($link,$query);
-    echo $query; //didn't display anything so I am not sure what is going on 
+    //echo $query; //didn't display anything so I am not sure what is going on 
 
     while($row = mysqli_fetch_assoc($select_gallery)){
       $gallery_id = $row['gallery_id'];
