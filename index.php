@@ -7,8 +7,14 @@
 	<section>
     <div class="row">
     <div class="small-10 medium-10 large-12 columns">
-    <h2>Video goes here.</h2>
-    <img src="http://placehold.it/1000x200" alt="placeholder image">
+    <h2>Welcome Video</h2>
+    <div class="flex-video widescreen">
+      <!-- <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->
+      <video controls poster="images/videoThumb.jpeg">
+      <source src="video/Chantry_Island_welcome_final.mp4" type="video/mp4">
+      <source src="video/Chantry_Island_welcome_final.oggtheora.ogv" type="video/ogg">
+      </video>
+    </div>
     </div>
     </div>
     </section>

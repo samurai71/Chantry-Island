@@ -1,8 +1,29 @@
 <?php 
+
+     
+     require_once('admin/phpscripts/init.php');
+
     $pageTitle = "Gallery";
     include "includes/header.php";
     include "includes/nav.php";
+    include "admin/phpscripts/connect.php";
+
+
+
+
+    $query = "SELECT * FROM tbl_gallery";
+    $select_gallery = mysqli_query($link,$query);
+    echo $query; //didn't display anything so I am not sure what is going on 
+
+    while($row = mysqli_fetch_assoc($select_gallery)){
+      $gallery_id = $row['gallery_id'];
+      $gallery_thumb = $row['gallery_thumbnail'];
+      $gallery_image = $row['gallery_image'];
+      $gallery_title = $row['gallery_title'];
+      $gallery_desc = $row['gallery_description'];
+    }
  ?>
+
 
     <section>
     <div class="row">
@@ -14,26 +35,26 @@
     <h2 class="text-center">Gallery</h2>
 
     <ul class="small-block-grid-2 medium-block-grid-6 large-block-grid-9">
-      <li><img src="images/1thumb.jpg" alt=""></li>
-      <li><img src="images/2thumb.jpg" alt=""></li>
-      <li><img src="images/3thumb.jpg" alt=""></li>
-      <li><img src="images/4thumb.jpg" alt=""></li>
-      <li><img src="images/5thumb.jpg" alt=""></li>
-      <li><img src="images/6thumb.jpg" alt=""></li>
-      <li><img src="images/7thumb.jpg" alt=""></li>
-      <li><img src="images/8thumb.jpg" alt=""></li>
-      <li><img src="images/9thumb.jpg" alt=""></li>
-      <li><img src="images/10thumb.jpg" alt=""></li>
-      <li><img src="images/11thumb.jpg" alt=""></li>
-      <li><img src="images/12thumb.jpg" alt=""></li>
-      <li><img src="images/13thumb.jpg" alt=""></li>
-      <li><img src="images/14thumb.jpg" alt=""></li>
-      <li><img src="images/15thumb.jpg" alt=""></li>
-      <li><img src="images/16thumb.jpg" alt=""></li>
-      <li><img src="images/17thumb.jpg" alt=""></li>
-      <li><img src="images/18thumb.jpg" alt=""></li>
-      <li><img src="images/19thumb.jpg" alt=""></li>
-      <li><img src="images/20thumb.jpg" alt=""></li>
+      <li><a href="gallery/1.jpg" data-lightbox="gallery"><img src="gallery/Thumbs/Pic_01_TH.jpg" alt=""></a></li>
+      <li><a href="gallery/2.jpg" data-lightbox="gallery"><img src="gallery/Thumbs/Pic_02_TH.jpg" alt=""></a></li>
+      <li><img src="gallery/Thumbs/Pic_03_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_04_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_05_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_06_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_07_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_08_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_09_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_10_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_11_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_12_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_13_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_14_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_15_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_16_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_17_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_18_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_19_TH.jpg" alt=""></li>
+      <li><img src="gallery/Thumbs/Pic_20_TH.jpg" alt=""></li>
     </ul>
 
    
