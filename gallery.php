@@ -34,7 +34,7 @@
 
     <h2 class="text-center">Gallery</h2>
 
-    <ul class="small-block-grid-2 medium-block-grid-6 large-block-grid-9">
+    <ul class="small-block-grid-2 medium-block-grid-6 large-block-grid-9 gallery">
       <li id="1"><a href="gallery/1.jpg" data-lightbox="gallery"><img src="gallery/Thumbs/Pic_01_TH.jpg" alt=""></a></li>
       <li id="2"><a href="gallery/2.jpg" data-lightbox="gallery"><img src="gallery/Thumbs/Pic_02_TH.jpg" alt=""></a></li>
       <li id="3"><img src="gallery/Thumbs/Pic_03_TH.jpg" alt=""></li>
