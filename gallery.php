@@ -55,6 +55,9 @@
       <li id="18"><img src="gallery/Thumbs/Pic_18_TH.jpg" alt=""></li>
       <li id="19"><img src="gallery/Thumbs/Pic_19_TH.jpg" alt=""></li>
       <li id="20"><img src="gallery/Thumbs/Pic_20_TH.jpg" alt=""></li>
+      <!-- <?php 
+      //echo "<li class='$gallery_id'><img src='$gallery_thumb'></li>";
+       ?> -->
     </ul>
 
    
