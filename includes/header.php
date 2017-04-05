@@ -23,8 +23,8 @@
     <div class="row">
       <div class="large-12 columns">
         <h1 id="logoheader">Chantry Island Project</h1>
-        <!-- <?php 
-           // date_default_timezone_set('America/Toronto');
+         <?php 
+            date_default_timezone_set('America/Toronto');
             //function welcome(){
                // if(date("H")< 17){
                     // return "Top of the morning to you";
@@ -37,7 +37,7 @@
                 // }
             //}
            //echo welcome();
-         ?> -->
+         ?> 
         <img src="images/day-header.jpg" alt="MHS logo" id="logo">
       </div>
     </div>

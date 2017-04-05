@@ -23,6 +23,7 @@
     <table role="grid" class="userTable">
       <thead>
         <tr>
+          <th>Id</th>
           <th>Title</th>
           <th>View</th>
           <th>Edit</th>
@@ -35,11 +36,12 @@
               if(!is_string($getPages)) {
                 while($row = mysqli_fetch_array($getPages)) {
                   echo "<tr>";
+                  echo "<td>{$row['page_id']}</td>";
                   echo "<td>{$row['page_title']}</td>";
                   // echo "<td>{$row['user_fname']} {$row['user_lname']}</td>";
                   // echo "<td>{$row['user_email']}</td>";
                   // echo "<td>{$row['user_role']}</td>";
-                  echo "<td><a href='#' target='_blank'>View</a></td>";
+                  echo "<td><a href='admin_view_all_pages.php' target='_blank'>View</a></td>";
                   echo "<td><a href='#'>Edit</a></td>";
                   echo "</tr>";
                }
