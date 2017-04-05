@@ -7,8 +7,8 @@
 	}
 	$mysqli->set_charset("utf8");
 	// set some post stuff up here
-	$modelNo = $_GET["model"];	
-	$myQuery = "SELECT * FROM tbl_gallery WHERE model = '$modelNo'";
+	$modelNo = $_GET["gallery"];	
+	$myQuery = "SELECT * FROM tbl_gallery WHERE gallery_id = '$modelNo'";
 	$result = mysqli_query($mysqli, $myQuery);
 	$row = mysqli_fetch_assoc($result);	
 	echo json_encode($row);
