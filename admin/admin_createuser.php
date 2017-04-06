@@ -11,15 +11,15 @@
 		$fname = trim($_POST['fname']);
 		$lname = trim($_POST['lname']);
 		$username = trim($_POST['username']);
-		$email = trim($_POST['email']);
 		$password = trim($_POST['password']);
+		$email = trim($_POST['email']);
 		$level = $_POST['lvllist'];
 		if(empty($username)) {
 			$message ="Please enter in a username.";
 
 		}else {
 			//echo "all good...";
-			$results = createUser($fname, $lname, $username, $email, $password, $level);
+			$results = createUser($fname, $lname, $username, $password, $email, $level);
 			$message = $results;
 			/*passwordEmail($email, $password, $username, $direct);
 					    echo "Confirmation Email Sent";
@@ -58,8 +58,8 @@
 		<label>User Role:</label>
 		<select name="lvllist">
 			<option value="editor">Please select a user role...</option>
-			<option value="2">admin</option>
-			<option value="1">editor</option>
+			<option value="admin">admin</option>
+			<option value="editor">editor</option>
 			<!-- <input type="hidden" name="lvllist" value="2"> -->
 		</select></div><br><br>
 		<div class="small-10 medium-12 large-12 columns">

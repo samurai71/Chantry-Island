@@ -6,8 +6,8 @@
 		//$userstring = "INSERT INTO tbl_user VALUES(NULL,'{$fname}','{$lname}','{$username}','{$email}','{$ip}')";
 		//echo $userstring;
 		$userstring = "INSERT INTO tbl_user(user_fname, user_lname, user_name, user_pass, user_email, user_role, user_ip)";
-		$userstring .= " VALUES('{$fname}','{$lname}','{$username}','{$password}','{$email}','{$level}','{$ip}'";
-		echo $userstring;
+		$userstring .= " VALUES('{$fname}','{$lname}','{$username}','{$password}','{$email}','{$level}','{$ip}')";
+		//echo $userstring;
 		$userquery = mysqli_query($link, $userstring);
 		if ($userquery) {
 			redirect_to("admin_index.php");
