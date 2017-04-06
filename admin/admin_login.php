@@ -44,11 +44,11 @@
            date_default_timezone_set('America/Toronto');
 
            function headerImage(){
-               if(date("H")< 17){
-                   echo "<img src='images/day-header.jpg' alt='MHS logo'";
+               if(date("H")< 18){
+                   return "<img src='images/day-header.jpg' alt='MHS logo'";
 
                }elseif (date("H")> 18){
-                   echo "<img src='images/night-header.jpg' alt='MHS logo'";
+                   return "<img src='images/night-header.jpg' alt='MHS logo'";
         
                 }
            }
