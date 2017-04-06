@@ -25,17 +25,17 @@
         <h1 id="logoheader">Chantry Island Project</h1>
          <?php 
             date_default_timezone_set('America/Toronto');
+
             function headerImage(){
                 if(date("H")< 17){
-                     //return "Top of the morning to you";
                     echo "<img src='images/day-header.jpg' alt='MHS logo'";
+
                 }elseif (date("H")> 18){
-                     //return "Cherio, time for afternoon tea";
                     echo "<img src='images/night-header.jpg' alt='MHS logo'";
-                // }elseif (date("H") > 17) {
-                //     return "Good evening";
+        
                  }
             }
+            
            echo headerImage();
          ?> 
         

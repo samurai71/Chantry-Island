@@ -41,7 +41,21 @@
       <div class="large-12 columns">
         <img src="images/night-header.jpg" alt="Daytime Header for Chantry Island">
         <h1 class="text-center">Chantry Island CMS Login</h1>
-        <!-- <img src="images/day-header.jpg" alt="Daytime Header for Chantry Island"> -->
+        <?php 
+           date_default_timezone_set('America/Toronto');
+
+           function headerImage(){
+               if(date("H")< 17){
+                   echo "<img src='images/day-header.jpg' alt='MHS logo'";
+
+               }elseif (date("H")> 18){
+                   echo "<img src='images/night-header.jpg' alt='MHS logo'";
+        
+                }
+           }
+           
+          echo headerImage();
+        ?> 
 
         <?php
                 if(!empty($message)) {echo $message;}
