@@ -10,7 +10,7 @@
 		//echo $userstring;
 		$userquery = mysqli_query($link, $userstring);
 		if ($userquery) {
-			redirect_to("admin_index.php");
+			redirect_to("admin_view_all_users.php");
 		}else {
 			$message = "Something went wrong!";
 			return $message;
