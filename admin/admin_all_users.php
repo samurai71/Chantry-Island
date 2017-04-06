@@ -13,6 +13,17 @@
 
   $getUsers = getAll($tbl);
 
+  // $query = "SELECT * FROM users";
+  //   $select_users = mysqli_query($link,$query);  
+  //   while($row = mysqli_fetch_assoc($select_users)) {
+  //       $user_id             = $row['user_id'];
+  //       $username            = $row['user_name'];
+  //       $user_password       = $row['user_pass'];
+  //       $user_fname          = $row['user_fname'];
+  //       $user_lname          = $row['user_lname'];
+  //       $user_email          = $row['user_email'];
+  //       $user_role           = $row['user_role'];
+
  ?>
  
   <section>

@@ -1,4 +1,5 @@
 <?php
+
 	function createUser($fname, $lname, $username,$password, $email, $level) {
 		require_once("connect.php");
 		$ip = 0;
@@ -24,8 +25,41 @@
 	}
 
 
+	// if(isset($_GET['source'])){
+
+	// $source = $_GET['source'];
+
+	// } else {
+
+	// $source = '';
+
+	// }
+
+	// switch($source) {
+	    
+	//     case 'add_user';
+	    
+	//      include "phpscripts/admin_createuser.php";
+	    
+	//     break; 
+	    
+	    
+	//     case 'edit_user';
+	    
+	//     include "phpscripts/edit_user.php";
+	//     break;
+	    
+	//     default:
+	    
+	//     include "phpscripts/admin_all_users.php";
+	    
+	//     break;
+	    
+	    
+	    
+	    
+	// }
+
+
 ?>
 
-<!-- $query = "INSERT INTO users(user_firstname, user_lastname, user_role,username,user_email,user_password) ";
-                 
-            $query .= "VALUES('{$user_firstname}','{$user_lastname}','{$user_role}','{$username}','{$user_email}', '{$user_password}') ";  -->
