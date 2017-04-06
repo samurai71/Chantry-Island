@@ -23,9 +23,9 @@
     <!-- <h3>Content</h3>
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi eius consequuntur voluptatem veritatis voluptatibus est, quidem eligendi labore in illum, suscipit numquam voluptates, delectus impedit eos perferendis itaque architecto eum?</p> -->
     </div>
-    <div class="small-10 medium-6 large-4 columns">
+    <div class="small-10 medium-6 large-4 columns youtube">
     <h3>YouTube Content</h3>
-    <img src="http://placehold.it/400x650" alt="placeholder image">
+    <a href="https://www.youtube.com/channel/UC5BwiLq9hSIl9BZRq7Q4UNA?feature=watch" target="_blank"><img src="images/youtube_PNG22.png" alt="youtube logo"></a>
     </div>
     </div>
     

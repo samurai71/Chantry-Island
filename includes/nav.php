@@ -2,7 +2,7 @@
 	<div class="row">
 	<div class="large-12 columns">
 	<h2 class="hidden">Main Navigation</h2>
-	<ul class="show-for-large-up large-block-grid-9">
+	<ul class="show-for-large-up large-block-grid-7">
     <!-- <ul class="large-block-grid-7"> -->
 	<li><a href="index.php">Home</a></li>
     	<!-- <li><a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:200">About</a>
@@ -28,8 +28,8 @@
         <li><a href="volunteers.php">Volunteers</a></li>
         <li><a href="gallery.php">Gallery</a></li>
         <li><a href="donations.php">Donations</a></li>
-        <li><a href="news.php">News</a></li>
-        <li><a href="events.php">Events</a></li>
+        <!-- <li><a href="news.php">News</a></li>
+        <li><a href="events.php">Events</a></li> -->
         <!-- </ul> -->
 	</ul>
 	</div>
@@ -107,7 +107,7 @@
         <li><a href="volunteers.php">Volunteers</a></li>
         <li><a href="gallery.php">Gallery</a></li>
         <li><a href="donations.php">Donations</a></li>
-        <li><a href="news.php">News</a></li>
-        <li><a href="events.php">Events</a></li>
+        <!-- <li><a href="news.php">News</a></li>
+        <li><a href="events.php">Events</a></li> -->
       </ul>
     </nav>

@@ -39,7 +39,6 @@
     <h1 class="hidden">Chantry Island</h1>
     <div class="row">
       <div class="large-12 columns">
-        <img src="images/night-header.jpg" alt="Daytime Header for Chantry Island">
         <h1 class="text-center">Chantry Island CMS Login</h1>
         <?php 
            date_default_timezone_set('America/Toronto');
