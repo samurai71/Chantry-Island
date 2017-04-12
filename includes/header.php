@@ -15,14 +15,31 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="css/slicknav.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <script src="js/vendor/modernizr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
   </head>
   <body>
     <section class="row panel">
     <div class="row">
       <div class="large-12 columns">
-        <h1>Chantry Island Project</h1>
-        <img src="images/day-header.jpg" alt="MHS logo" />
+        <h1 id="logoheader">Chantry Island Project</h1>
+         <?php 
+            date_default_timezone_set('America/Toronto');
+
+            function headerImage(){
+                if(date("H")< 18){
+                    return "<img src='images/day-header.jpg' alt='MHS logo'";
+
+                }elseif (date("H")> 18){
+                    return "<img src='images/night-header.jpg' alt='MHS logo'";
+        
+                 }
+            }
+            
+           echo headerImage();
+         ?> 
+        
       </div>
     </div>
 

@@ -2,18 +2,28 @@
 	display: none;
 }
 
-p {
+/* p {
 	font-family: "times" , serif;
-}
+} */
 
 body {
-	background: url('../images/Lake_Huron_manitoulin.jpeg') no-repeat fixed;
-	background-size: cover;
-	
+	/* background: url('../images/Lake_Huron_manitoulin.jpeg') no-repeat fixed;
+	background-size: cover; */
+	background-color: #5c6b8f;
+
 }
 
 h1, h2, h3 {
 	color: #981B1E !important;
+	font-family: Georgia, serif;
+}
+
+a {
+	font-family: Georgia, serif;
+}
+
+a:hover {
+	color: #981b1e;
 }
 
 .phone {
@@ -27,7 +37,7 @@ h1, h2, h3 {
 
  .mainNav ul li { 
 	display: inline-block;
-	margin-right: 5em;
+	/* margin-right: 5em; */
 	text-align: center;
 	margin-top: 1em;
 }
@@ -38,7 +48,8 @@ h1, h2, h3 {
 
 #mobileNav {
 	padding-bottom: 1em;
-} */
+	margin-top: .5em;
+} 
 
 
 img {
@@ -47,8 +58,9 @@ img {
 
 .panel {
 	margin-top: 2em;
-	background-color: rgba(255, 255, 255, .5);
+	background-color: rgba(255, 255, 255, .90);
 	border-radius: 1em;
+	/* border: 2px solid #000000; */
 
 }
 
@@ -72,6 +84,10 @@ img {
 	width: 100%;
 }
 
+#adminLogin {
+	margin-top: 1em;
+}
+
 #donors_list {
 	width: 100%;
 }
@@ -83,6 +99,8 @@ tr.border_bottom td {
 tr.border_bottom th {
   border-bottom:1px solid black;
 }
+
+
  
 @media only screen and (max-width: 40em) {
 	.js #menu {
@@ -125,3 +143,4 @@ tr.border_bottom th {
 		display:block;
 	}
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+

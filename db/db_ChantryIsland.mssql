@@ -1,0 +1,191 @@
+-- phpMyAdmin SQL Dump
+-- version 4.4.10
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost:8889
+-- Generation Time: Apr 06, 2017 at 01:38 PM
+-- Server version: 5.5.42
+-- PHP Version: 5.6.10
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `db_ChantryIsland`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_categories`
+--
+
+CREATE TABLE `tbl_categories` (
+  `cat_id` int(3) NOT NULL,
+  `cat_name` varchar(255) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_categories`
+--
+
+INSERT INTO `tbl_categories` (`cat_id`, `cat_name`) VALUES
+(1, 'News'),
+(2, 'Events');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_gallery`
+--
+
+CREATE TABLE `tbl_gallery` (
+  `gallery_id` int(11) NOT NULL,
+  `gallery_thumbnail` varchar(255) NOT NULL,
+  `gallery_image` varchar(255) NOT NULL,
+  `gallery_title` varchar(255) NOT NULL,
+  `gallery_description` varchar(255) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_gallery`
+--
+
+INSERT INTO `tbl_gallery` (`gallery_id`, `gallery_thumbnail`, `gallery_image`, `gallery_title`, `gallery_description`) VALUES
+(1, 'Thumbs/Pic_01_TH.jpg', '1.jpg', 'gallery', ''),
+(2, 'Thumbs/Pic_02_TH.jpg', '2.jpg', 'gallery', ''),
+(3, 'Thumbs/Pic_03_TH.jpg', '3.jpg', 'gallery', ''),
+(4, 'Thumbs/Pic_04_TH.jpg', '4.jpg', 'gallery', ''),
+(5, 'Thumbs/Pic_05_TH.jpg', '5.jpg', 'gallery', ''),
+(6, 'Thumbs/Pic_06_TH.jpg', '6.jpg', 'gallery', ''),
+(7, 'Thumbs/Pic_07_TH.jpg', '7.jpg', 'gallery', ''),
+(8, 'Thumbs/Pic_08_TH.jpg', '8.jpg', 'gallery', ''),
+(9, 'Thumbs/Pic_09_TH.jpg', '9.jpg', 'gallery', ''),
+(10, 'Thumbs/Pic_10_TH.jpg', '10.jpg', 'gallery', ''),
+(11, 'Thumbs/Pic_11_TH.jpg', '11.jpg', 'gallery', ''),
+(12, 'Thumbs/Pic_12_TH.jpg', '12.jpg', 'gallery', ''),
+(13, 'Thumbs/Pic_13_TH.jpg', '13.jpg', 'gallery', ''),
+(14, 'Thumbs/Pic_14_TH.jpg', '14.jpg', 'gallery', ''),
+(15, 'Thumbs/Pic_15_TH.jpg', '15.jpg', 'gallery', ''),
+(16, 'Thumbs/Pic_16_TH.jpg', '16.jpg', 'gallery', ''),
+(17, 'Thumbs/Pic_17_TH.jpg', '17.jpg', 'gallery', ''),
+(18, 'Thumbs/Pic_18_TH.jpg', '18.jpg', 'gallery', ''),
+(19, 'Thumbs/Pic_19_TH.jpg', '19.jpg', 'gallery', ''),
+(20, 'Thumbs/Pic_20_TH.jpg', '20.jpg', 'gallery', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_pages`
+--
+
+CREATE TABLE `tbl_pages` (
+  `page_id` int(3) NOT NULL,
+  `page_title` varchar(255) NOT NULL,
+  `page_thumbnail` text NOT NULL,
+  `page_image` text NOT NULL,
+  `page_content` text NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_pages`
+--
+
+INSERT INTO `tbl_pages` (`page_id`, `page_title`, `page_thumbnail`, `page_image`, `page_content`) VALUES
+(1, 'Home', '', '', ''),
+(2, 'About', '', '', ''),
+(3, 'Booking', '', '', ''),
+(4, 'Contact', '', '', ''),
+(5, 'Volunteers', '', '', ''),
+(6, 'Gallery', '', '', ''),
+(7, 'Donations', '', '', ''),
+(8, 'News', '', '', ''),
+(9, 'Events', '', '', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_user`
+--
+
+CREATE TABLE `tbl_user` (
+  `user_id` int(11) NOT NULL,
+  `user_fname` varchar(256) NOT NULL,
+  `user_lname` varchar(256) NOT NULL,
+  `user_name` varchar(256) NOT NULL,
+  `user_pass` varchar(256) NOT NULL,
+  `user_email` varchar(256) NOT NULL,
+  `user_role` varchar(255) NOT NULL,
+  `user_ip` varchar(100) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_user`
+--
+
+INSERT INTO `tbl_user` (`user_id`, `user_fname`, `user_lname`, `user_name`, `user_pass`, `user_email`, `user_role`, `user_ip`) VALUES
+(1, 'Mark ', 'Landeryou', 'mlanderyou', 'password', 'marklanderyou@hotmail.com', 'admin', '::1'),
+(2, 'Donald', 'Armstrong', 'darmstrong', 'password', '', 'admin', ''),
+(5, 'John', 'Doe', 'jdoe', 'password', 'jdoe@gmail.com', 'editor', '0');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `tbl_categories`
+--
+ALTER TABLE `tbl_categories`
+  ADD PRIMARY KEY (`cat_id`);
+
+--
+-- Indexes for table `tbl_gallery`
+--
+ALTER TABLE `tbl_gallery`
+  ADD PRIMARY KEY (`gallery_id`);
+
+--
+-- Indexes for table `tbl_pages`
+--
+ALTER TABLE `tbl_pages`
+  ADD PRIMARY KEY (`page_id`);
+
+--
+-- Indexes for table `tbl_user`
+--
+ALTER TABLE `tbl_user`
+  ADD PRIMARY KEY (`user_id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `tbl_categories`
+--
+ALTER TABLE `tbl_categories`
+  MODIFY `cat_id` int(3) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT for table `tbl_gallery`
+--
+ALTER TABLE `tbl_gallery`
+  MODIFY `gallery_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=21;
+--
+-- AUTO_INCREMENT for table `tbl_pages`
+--
+ALTER TABLE `tbl_pages`
+  MODIFY `page_id` int(3) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=10;
+--
+-- AUTO_INCREMENT for table `tbl_user`
+--
+ALTER TABLE `tbl_user`
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

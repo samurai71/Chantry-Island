@@ -9,15 +9,20 @@
     <div class="small-10 medium-10 large-12 columns">
     <h2>Donations</h2>
     <p>Since 1997 we have had a tremendous amount of support by donations. If you would like to be included please send a cheque or money order to:</p>
-
-    <h2>Mailing Address</h2>
+  
+    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
+    <li><h2>Mailing Address</h2>
     <p>86 Saugeen St.<br>
         Southampton, Ontario<br>
         Canada N0H 2L0 </p>
     <p>Please specify your Donation Preference:<br>
-Chantry Island and/or New Tour Boat</p>
+Chantry Island and/or New Tour Boat</p></li>
+      <li><h2>Donations</h2>
+      <p>We are currently engaged in Fund Raising to support our New Boat, Dock Improvements, and Marine Heritage Projects.</p>
+      <p>We will send a tax receipt for all donations $20 and more.</p>
+      </li></ul>
 
-    <ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-2">
+    <!-- <ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-2">
       <li><h2>Donations</h2>
       <p>We are currently engaged in Fund Raising to support our New Boat, Dock Improvements, and Marine Heritage Projects.</p>
       <p>We will send a tax receipt for all donations $20 and more.</p>
@@ -25,7 +30,7 @@ Chantry Island and/or New Tour Boat</p>
       <li><h2>Click to donate</h2>
       <p></p>
       </li>
-    </ul>
+    </ul> -->
 
     <h2>Donor Category List</h2>
 

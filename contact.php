@@ -7,16 +7,19 @@
     <section>
     <div class="row">
     <div class="small-10 medium-10 large-12 columns">
-    <h2>Contact</h2>
-    <p>Call:<a href="tel:5197975862" class="phone"> 519-797-5862</a><br>
-    Toll: Free:<a href="tel:18667975862" class="phone"> 1-866-797-5862</a> </p>
-
-    <h2>Mailing Address</h2>
+    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
+    <li><h2>Contact</h2>
+    <p>Call:<a href="tel:5197975862"> 519-797-5862</a><br>
+    Toll: Free:<a href="tel:18667975862"> 1-866-797-5862</a> </p></li>
+    
+    
+    <li><h2>Mailing Address</h2>
     <p>Marine Heritage Society<br>
     86 Saugeen St.<br>
     Southampton, Ontario<br>
     Canada N0H 2L0 
-    </p>
+    </p></li>
+
 
     <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
         <li><h2>Location</h2>
